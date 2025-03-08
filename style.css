@@ -1,0 +1,91 @@
+body{
+    background: #f4f3f3;
+}
+.header{
+    background-color: #dfdfdf;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.headlogo{
+    width: 60px;
+    height: 60px;
+    margin-left: -100px;
+}
+.headbdy{
+    margin-left: -300px;
+}
+.headbdy ul{
+    display: flex;
+    align-items: center;
+}
+.headbdy ul li{
+    margin-left: 40px;
+    list-style: none;
+}
+.headbdy ul li a {
+    text-decoration: none;
+    color: black;
+}
+.headbdy ul li a:hover{
+   opacity: .6;
+}
+.headlogo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.headsign button{
+    padding: 6px 5px;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+}
+.bdy{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    
+}
+.palette {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+.color-box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    color: #333;
+    background-color: #bfd8d5;
+}
+.footer{
+    text-align: center;
+}
